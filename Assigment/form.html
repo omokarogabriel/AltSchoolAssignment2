@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in</title>
+</head>
+<body>
+    <div>
+        <div>
+            <img src="" alt="Alt School">
+        </div>
+
+        <div>
+            <h3>Already an AltSchooler? <span>Sign In!</span></h3>
+        </div>
+
+        <div>
+            <h2>Signup</h2>
+            <p>Take the next step to apply at AltSchool Africa</p>
+
+            <div>
+                <form action="">
+                    <label for="firstname">First Name</label><br>
+                    <input type="text"
+                            name="firstname"
+                            placeholder="Enter first name"
+                            id="firstname"
+                            required/> <br>
+
+                    <label for="lastname">Last Name</label><br>
+                    <input type="text"
+                                name="lastname"
+                                placeholder="Enter last name"
+                                id="lastname"
+                                required/>
+                                <br>
+
+                    <label for="gender">Gender</label><br>
+                    <select name="gender" 
+                                id="gender">
+                                <option value="" disabled selected>
+                                    Select gender
+                                </option>
+                                <option value="male">
+                                    Male
+                                </option>
+                                <option value="female">
+                                    Female
+                                </option>
+                            </select>
+                            <br>
+                    
+                    <label for="DoB">Date of Birth</label><br>
+                    <input type="date"
+                                id="DoB"
+                                name="DoB"
+                                required/>
+                                <br>
+
+                    <label for="email">Email Address</label> <br>
+                    <input type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Enter email address"
+                            required/>
+                            <br>     
+                           
+                    <label for="phone-number">Phone Number</label><br>
+                    <input type="tel"
+                            name="phone-number"
+                            id="phone-number"
+                            placeholder="08012345678"
+                            required/>
+                            <br>
+
+                    <!-- <label for="countries">Country</label><br>
+                    <select name="countries" 
+                            id="countries">
+                            <option value="">
+                                Select your country
+                            </option>
+                            <option value=""></option>
+                        </select><br> -->
+                    <label for="country">Country</label><br>
+                    <select name="country" id="country">
+                        <option value="" disabled selected placeholder="Select your country">Select your country</option>
+                        <option value="us">United State of America</option>
+                        <option value="ca">Canada</option>
+                        <option value="gb">Great Britain</option>
+                        <option value="au">Australia</option>
+                        <option value="ng">Nigeria</option>
+                    </select><br>
+                    <label for="residence">State/City of Residence</label><br>
+                    <input type="text" 
+                                name="residence" 
+                                id="residence"
+                                placeholder="Enter your state of residence"
+                                required/> <br>
+                    
+                    <label for="channel">How did you hear about us?</label><br>
+                    <select name="channel" id="channel">
+                        <option value="" disabled selected>Select a channel</option>
+                        <option value="fb">facebook</option>
+                        <option value="ig">instagram</option>
+                        <option value="x">twitter</option>
+                        <option value="friend">from a friend</option>
+                        <option value="none">none</option>
+                    </select>    <br>
+                    
+                    <label for="password">Password</label><br>
+                    <input type="password" 
+                                name="password" 
+                                id="password"
+                                placeholder="Enter password"
+                                required/> <br>
+                    
+                    <label for="confirm-password"> Comfirm Password</label><br>
+                    <input type="password" 
+                                name="confirm-password" 
+                                id="confirm-password"
+                                placeholder="Enter password again"
+                                required/> <br>     
+                                
+                    <p>
+                        By clicking continue, I agree to <b>Terms of use</b> and acknowledge that i have
+                        read the <b>Privacy Policy</b> 
+                    </p>    
+                    
+                    <input type="submit" value="submit">
+                </form>
+                <a href="./index.html">home</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
